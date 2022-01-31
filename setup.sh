@@ -1,5 +1,7 @@
 # resize terminal window
 resize -s 40 70 > /dev/null
+apt update 
+
 #Colors
 cyan='\e[0;36m'
 lightcyan='\e[96m'
@@ -96,4 +98,17 @@ sudo apt-get install zenity -y
 clear
 echo -e $blue "[ ✔ ] Done installing .... "
 which zenity > /dev/null 2>&1
+fi
+which python3 > /dev/null 2>&1
+if [ "$?" -eq "0" ]; then
+echo -e $green "[ ✔ ] Python3..............${LighGreenF}[ found ]"
+which python3 > /dev/null 2>&1
+sleep 2
+else
+echo -e $red "[ X ] Python3  -> ${RedF}not found "
+echo -e $yellow "[ ! ] Installing Metasploit-Framework "
+sudo apt-get install python3 -y
+echo -e $blue "[ ✔ ] Done installing ...."
+which python3 > /dev/null 2>&1
+sleep 2
 fi
