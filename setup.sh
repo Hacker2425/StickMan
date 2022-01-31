@@ -67,4 +67,33 @@ if [ "$?" -eq "0" ]; then
 echo -e $green "[ ✔ ] Xterm.............................${LighGreenF}[ found ]"
 which xterm > /dev/null 2>&1
 sleep 2
+else
+echo ""
+echo -e $red "[ X ] xterm -> ${RedF}not found! "
+sleep 2
+echo -e $yellow "[ ! ] Installing Xterm "
+sleep 2
+echo -e $green ""
+sudo apt-get install xterm -y
+clear
+echo -e $blue "[ ✔ ] Done installing .... "
+which xterm > /dev/null 2>&1
+fi
+#check if zenity is installed
+which zenity > /dev/null 2>&1
+if [ "$?" -eq "0" ]; then
+echo -e $green "[ ✔ ] Zenity............................${LighGreenF}[ found ]"
+which zenity > /dev/null 2>&1
+sleep 2
+else
+echo ""
+echo -e $red "[ X ] Zenity -> ${RedF}not found! "
+sleep 2
+echo -e $yellow "[ ! ] Installing Zenity "
+sleep 2
+echo -e $green ""
+sudo apt-get install zenity -y
+clear
+echo -e $blue "[ ✔ ] Done installing .... "
+which zenity > /dev/null 2>&1
 fi
