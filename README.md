@@ -14,6 +14,8 @@ StickMan is Built in python
  
  bash setup.sh
  
+ chmod +x *
+ 
  python3 StickMan.py
  
  # RequireMents
