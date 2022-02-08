@@ -26,18 +26,6 @@ StickMan is Built in python
  
  Xterm
  
- # Note
- 
- Don't Use ./setup.sh
- 
- Use bash setup.sh
- 
- If you Use ./setup.sh
- 
- It will Give you a Error
- 
- Pls Run This Script as Root!
- 
  # HackerIndia
  
  Tool Coded by Nikhil
