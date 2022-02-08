@@ -1,3 +1,4 @@
+#!/bin/bash
 # resize terminal window
 resize -s 40 70 > /dev/null
 apt update 
