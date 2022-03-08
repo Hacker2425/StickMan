@@ -11,11 +11,11 @@ print ("""
           \___ |  | |  | ||  \_ |   \   | |  ||| |-||| | \||
           \____/  \_/  \_/\____/\_|\_\  \_/  \|\_/ \|\_/  \|
 
-Tool Coded By @Nikhil      Insta:- https://www/instagram.com/iamnikhil2459
+Tool Coded By @Hacker2425      Insta:- https://www/instagram.com/iamnikhil2459
 
 """)
 
-choice = input("Will You use this tool for Educational Purpose:")
+choice = input("Will You use this tool for Educational Purpose y|Y|n:")
 if choice == 'y':
    print("Now You Can use this tool")
 
