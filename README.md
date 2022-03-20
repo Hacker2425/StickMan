@@ -28,6 +28,6 @@ StickMan is Built in python
  
  # HackerIndia
  
- Tool Coded by Nikhil
+ Tool Coded by Hacker2425
  
  Visit My InstaGram:- https://www.instagram.com/iamnikhil2459
